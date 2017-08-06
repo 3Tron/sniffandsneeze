@@ -1,0 +1,31 @@
+{
+  "name": "node_sniffandsneeze",
+  "version": "1.0.0",
+  "description": "broadcast sniffer",
+  "main": "lib/sniff.js",
+  "scripts": {
+    "prepublish": "babel src --presets babel-preset-es2015 --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/3Tron/sniffandsneeze.git"
+  },
+  "keywords": [
+    "broadcast",
+    "network",
+    "sniff",
+    "read",
+    "sneeze",
+    "callback"
+  ],
+  "author": "Jean-Philippe Ruijs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3Tron/sniffandsneeze/issues"
+  },
+  "homepage": "https://github.com/3Tron/sniffandsneeze#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
