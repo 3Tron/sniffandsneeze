@@ -3,7 +3,7 @@ const dgram = require('dgram');
 const server = dgram.createSocket('udp4');
 const { iso } = require('./tools');
 
-const sniff = (host, port, sneezeCallback) => {
+const sniff = (host, port, sneeze) => {
   server.on('listening', () => {
     const address = server.address();
     console.log(`listening on ${address.address}:${address.port}`);
